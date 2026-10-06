@@ -1,0 +1,22 @@
+[project]
+name = "grade-report"
+version = "0.1.0"
+description = "Console-based student academic performance analyzer"
+authors = [
+    {name = "FPT"}
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.14,<3.16"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pyinstaller (>=6.22.3,<7.0.0)"
+]
